@@ -48,3 +48,27 @@
     border: none;
     border-radius: 5px;
 }
+
+.banner-header .facebook{
+    color: rgb(0,101,164);
+}
+
+.banner-header .twitter{
+    color: rgb(0,184,219);
+}
+
+.banner-header .google{
+    color: #e50404;
+}
+
+.banner-header .sms{
+    color: rgb(255,192,0);
+}
+
+.banner-header .rss{
+    color: rgb(255,129,0);
+}
+
+.banner-header .search{
+    transform: scaleY(-1);
+}
