@@ -2,9 +2,10 @@
     outline: 1px solid rgba(244, 202, 226, 0.9);
 }
 
-
 /*--NOTICIAS ESPECIALES--*/
-
+body a:hover{
+    text-decoration: none;
+}
      /*--end divisor--*/
 .divisor{
   border: 1.5px solid rgba(180, 5, 5, 0.72);  
@@ -42,11 +43,30 @@ span{
 .photo{
     background-image: url(../image/NS1.jpg);
     background-size: cover;
+    background-position: top;
 }
- .photo h4{
+.photo1{
+    background-image: url(../image/ns3.jpg);
+    background-size: cover;
+    background-position: top;
+}
+.photo2{
+    background-image: url(../image/NS2.jpg);
+    background-size: cover;
+    background-position: top;
+}
+.photo3{
+    background-image: url(../image/NS4.png);
+    background-size: cover;
+    background-position: bottom;
+}
+.contraste h4{
    color: #fff;
    padding: 160px 0 5px;
 }
 .text h5{
     padding: 7px 0;
+    color: #000;
 }
+
+
