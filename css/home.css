@@ -1,13 +1,20 @@
 /* Inserta tu código de la página home/index acá */
-*{outline: 1px solid violet;}
+
 /*--FOOTER--*/
 footer{background-color: #e4e4e4;}
-footer .padding{
-    padding: 30px;
-}
-footer .bleft{
-    border-left: 1px solid red;
-}
-footer li a{color: #30303c;}
+footer .logo{margin-top: 60px;}
+footer .logo{display: table-cell; vertical-align: middle;}
+footer .padding{padding: 30px 60px 20px;}
+footer .bleft{border-left: 2px solid #eee;}
+footer li a{color: #575d62; font-size: 12px;}
 footer li a:hover{text-decoration: none;}
+footer hr{margin: 0 auto 15px; border-bottom: 1px solid #eeeeee;}
+footer .final a, li, ul{color: #9c9796; font-size: 11.5px;}
+@media screen and (min-width:992px){
+    .movil{display: none;}
+}
+@media screen and (max-width:992px){
+    .desktop1, .desktop2{display: none;}
+    footer{background-color: black; color: white; text-align: center; padding: 50px auto;}
+}
 /*--CIERRE DE FOOTER--*/
