@@ -3,9 +3,55 @@
 <head>
   <meta charset="UTF-8">
   <title>La Répública - Contacto</title>
+  <link rel="stylesheet" href="css/contacto.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <title>Formulario de Contacto - Script Personal</title>
+  
   <!-- Inserta tus enlaces aquí -->
 </head>
 <body>
-<!-- Inserta tu código aquí -->
+<!-- CONTACTO -->
+<section class="contacto">
+<div class="container">
+  <h2>Contáctese con nosotros</h2>
+  <p>Llena este formulario si necesita envianos alguna información acerca del contenido del servicio web, su funcionalidad, o si tiene alguna <br>  propuesta de información o mejora para el sitio. Así mismo, puede hacer llegar a los redactores su opinión acerca de los contenidos, de una <br> determinada sección el cual podra elegir como destinatario.</p> 
+  <form class="formulario">
+    <div class="form-group">
+      <input type="Nombre" class="form-control" id="Nombre" placeholder="Nombres Completos">
+    </div>
+    <div class="form-group">
+      <input type="email" class="form-control" id="email" placeholder="Correo Electrónico">
+    </div>
+    <div class="form-group">
+      <input type="phone" class="form-control" id="phone" placeholder="Teléfono">
+      <label>(Opcional)</label>
+    </div>
+    <div>
+        <h3><b>Elija un destinatario</b></h3>
+    </div>
+    <div class="checkbox">
+     <ul>
+         <li><label><input type="checkbox">Sugerencia para el sitio web</label></li>
+         <li> <label><input type="checkbox">Dirección periodística</label></li>
+         <li><label><input type="checkbox">Dirección comercial</label></li>
+         <li><label><input type="checkbox">Cartas al director</label></li>
+         <li><label><input type="checkbox">Promociones y productos del diario</label></li>
+         <li><label><input type="checkbox">Archivo periodistico</label></li>
+     </ul>
+     
+    </div>
+    <textarea name="Mensaje" placeholder="Mensaje" id="msj" cols="30" rows="10"></textarea>
+    <button class="btn">ENVIAR</button>
+  </form>
+</div>
+</section>
+
+
+<!--END CONTACTO -->
 </body>
 </html>
