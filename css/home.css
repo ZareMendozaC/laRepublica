@@ -1,36 +1,50 @@
-<<<<<<< HEAD
+{
+    outline: 1px solid rgba(244, 202, 226, 0.9);
+}
 
 
-
-=======
->>>>>>> c52cfe28420ef5fcf835daed18b94b15ab6d9f16
 /*--NOTICIAS ESPECIALES--*/
+
+     /*--end divisor--*/
+.divisor{
+  border: 1.5px solid rgba(180, 5, 5, 0.72);  
+}
+h3, span{
+  transform: translateY(-28px)
+}
+span{
+    background: rgba(180, 5, 5, 0.88);
+    color: #fff;
+    padding: 3px 5px;
+}
+     /*--end divisor--*/
+
 .special{
     text-align: center;
+    margin-bottom: 50px;
 }
-<<<<<<< HEAD
 .title-especiales{
     color: #fd1616;
+     padding: 6px 0;
 }
 .block-special{
     border: 2px solid rgba(137, 130, 130, 0.21);
-}
-.photo{
-    background-image: url(../image/NS1.jpg)
-}
-.text h4{
-    color: #a80000;
-}
-=======
-.photo{
+    margin-bottom: 30px;
    
 }
-.texti{
-   position: relative;
-   color: #fff;
-   bottom: 70px; 
+.photo{
+    background-image: url(../image/NS1.jpg);
+    background-size: cover;
+    background-position: center;
+    background: -webkit-linear-gradient (top, #fff 0%, #000 100%)
 }
-
-
-/*-- END NOTICIAS ESPECIALES--*/
->>>>>>> c52cfe28420ef5fcf835daed18b94b15ab6d9f16
+.contraste{
+    
+}
+ .photo h4{
+   color: #fff;
+   padding: 160px 0 5px;
+}
+.text h5{
+    padding: 7px 0;
+}
