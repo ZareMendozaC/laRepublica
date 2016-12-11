@@ -1,1 +1,19 @@
-/* Inserta tu código de la página home/index acá */
+
+
+
+/*--NOTICIAS ESPECIALES--*/
+.special{
+    text-align: center;
+}
+.title-especiales{
+    color: #fd1616;
+}
+.block-special{
+    border: 2px solid rgba(137, 130, 130, 0.21);
+}
+.photo{
+    background-image: url(../image/NS1.jpg)
+}
+.text h4{
+    color: #a80000;
+}
