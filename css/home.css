@@ -1,2 +1,13 @@
 /* Inserta tu código de la página home/index acá */
 *{outline: 1px solid violet;}
+/*--FOOTER--*/
+footer{background-color: #e4e4e4;}
+footer .padding{
+    padding: 30px;
+}
+footer .bleft{
+    border-left: 1px solid red;
+}
+footer li a{color: #30303c;}
+footer li a:hover{text-decoration: none;}
+/*--CIERRE DE FOOTER--*/
