@@ -1,0 +1,6 @@
+/*--NOTICIAS ESPECIALES--*/
+@media screen and (max-width:970){
+    aside{
+        display: none;
+    }
+}
