@@ -1,10 +1,14 @@
+<<<<<<< HEAD
 
 
 
+=======
+>>>>>>> c52cfe28420ef5fcf835daed18b94b15ab6d9f16
 /*--NOTICIAS ESPECIALES--*/
 .special{
     text-align: center;
 }
+<<<<<<< HEAD
 .title-especiales{
     color: #fd1616;
 }
@@ -17,3 +21,16 @@
 .text h4{
     color: #a80000;
 }
+=======
+.photo{
+   
+}
+.texti{
+   position: relative;
+   color: #fff;
+   bottom: 70px; 
+}
+
+
+/*-- END NOTICIAS ESPECIALES--*/
+>>>>>>> c52cfe28420ef5fcf835daed18b94b15ab6d9f16
