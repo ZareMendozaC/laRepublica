@@ -27,12 +27,15 @@ textarea{
 }
 .box{
     padding-left: 0;
+    list-style: none;
 }
 .lista ul{
     width: 100%;
 }
-.box li{
+.box1{
     list-style: none;
+    padding-left: 0;
+    
 }
 .ejemplo{
     float: right;
