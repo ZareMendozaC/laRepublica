@@ -1,9 +1,7 @@
-/* Inserta tu código común entre todas las páginas acá */
+f/* Inserta tu código común entre todas las páginas acá */
 .banner-header{
     background: rgb(244,245,247);
     border-bottom: 2px solid #ccc;
-    
-    
 }
 
 .banner-header .banner-top img{
@@ -22,7 +20,6 @@
     padding: 0;
     
 }
-
 .banner-header ul li{
     display: inline-flex;
     
