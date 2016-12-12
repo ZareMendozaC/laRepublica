@@ -80,13 +80,11 @@
         background: #fff;
         border: 1px solid #555;
         box-shadow: 0 0 3px #aaa;
-        padding-right: 25px; }
+        width: 90px; }
     .banner-header .search {
         background: none;
         border:none;
         border-right: 1px solid #ccc;
         padding: 5px; }
 
-
-
-
+    
