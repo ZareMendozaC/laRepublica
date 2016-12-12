@@ -8,49 +8,63 @@
     font-size: 18px;
     margin-bottom: 35px;
 }
-.formulario{
+.contacto .formulario{
     width: 60%;
     margin: auto;
     margin-bottom: 30px; 
 }
-.formulario input{
+.contacto .formulario input{
     background: #eeeeee;
     border: rgba(0, 0, 0, 0);
     border-top: 2px solid #a59b9b;
     border-left: 2px solid #a59b9b;
 }
-textarea{
+.contacto textarea{
     width: 100%;
     background: #eeeeee;
     border: rgba(0, 0, 0, 0);
     border-top: 2px solid #a59b9b;
 }
-.box{
+.contacto .box{
     padding-left: 0;
     list-style: none;
+    padding-bottom: 20px;
 }
-.lista ul{
+.contacto .box li{
+    font-size: 15px;
+    color: #000;
+}
+.contacto .lista{
     width: 100%;
 }
-.box1{
-    list-style: none;
-    padding-left: 0;
-    
-}
-.ejemplo{
+.contacto span{
     float: right;
-}
-.ejemplo{
-    text-align: right;   
+    text-align: right;
+    margin-bottom:
 }
 .contacto button{
     background: #000;
     width: 40%;
     padding: 5px 0;
     text-align: center;
-    border-radius: 8px;
+    border-radius: 5px;
     color: #fff;
     position: relative;
     margin-top: 20px;
 }
-
+/*--FOOTER--*/
+footer{background-color: #e4e4e4;}
+footer .logo{margin-top: 60px;}
+footer .padding{padding: 30px 60px 20px;}
+footer .bleft{border-left: 2px solid #eee;}
+footer ul li a{color: #575d62; font-size: 12px;}
+footer ul li a:hover{text-decoration: none;}
+footer ul li:hover{background-color: rgba(0, 0, 0, 0.1);}
+footer hr{margin: 0 auto 15px; border-bottom: 1px solid #eeeeee;}
+footer .final a, li, ul{color: #9c9796; font-size: 11.5px;}
+@media screen and (min-width:992px){footer .movil{display: none;}}
+@media screen and (max-width:992px){
+    footer .desktop1, .desktop2{display: none;}
+    footer{background-color: black; color: white; text-align: center;}
+}
+/*--CIERRE DE FOOTER--*/

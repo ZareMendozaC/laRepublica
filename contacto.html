@@ -4,7 +4,10 @@
   <meta charset="UTF-8">
   <title>La Répública - Contacto</title>
   <link rel="stylesheet" href="css/contacto.css">
+  <link rel="stylesheet" href="css/queries.css">
   <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
+  <link rel="stylesheet" href="css/common.css">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -15,11 +18,51 @@
   <!-- Inserta tus enlaces aquí -->
 </head>
 <body>
+<header>
+        <section class="banner-header">
+            <div class="container">
+                <div class="row">
+                    <div class="banner-top">
+                        <img src="image/banner_top.jpg" class="hidden-xs">
+                    </div>    
+                </div>
+                
+                <div class="row">
+                    <div class="col-md-7">
+                        <ul>
+                            <li><a target="_blank" href="http://www.libero.pe/">LIBERO.PE</a></li>
+                            <li><a target="_blank" href="http://www.elpopular.pe/">ELPOPULAR.PE</a></li>
+                            <li><a target="_blank" href="http://fundacionmohme.org/">FUNDACIÓN GUSTAVO MOHME LONA</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="col-md-5 remove-padding">
+                        <button type="button" href="#suscribete">SUSCRÍBETE AL BOLETÍN</button>
+                        <span><a class="facebook" target="_blank" onclick="window.open(this.href, this.target, 'width=400,height=400');"  href="https://www.facebook.com/sharer/sharer.php?u=http://larepublica.pe/"><i class="fa fa-facebook" aria-hidden="true"></i></a></span>
+                        
+                        <span><a class="twitter" target="_blank" onclick="window.open(this.href, this.target, 'width=400,height=400');"  href="https://twitter.com/intent/tweet?text=LaRepublica_pe&url=http://larepublica.pe/&via=larepublica_pe&original_referer=http://larepublica.pe/"><i class="fa fa-twitter" aria-hidden="true"></i></a></span>
+                        
+                        <span><a class="google" target="_blank" onclick="window.open(this.href, this.target, 'width=400,height=400');"  href="https://plus.google.com/share?url=http://larepublica.pe/"><i class="fa fa-google-plus" aria-hidden="true"></i></a></span>
+                        
+                        <span><a class="sms"  href="contacto.html"><i class="fa fa-envelope" aria-hidden="true"></i></a></span>
+                        
+                        <span><a class="rss" target="_blank" onclick="window.open(this.href, this.target, 'width=800,height=600');"  href="http://feeds.feedburner.com/larepublica/feeds"><i class="fa fa-rss" aria-hidden="true"></i></a></span>
+                        
+                         <form method="get" class="searchform" action="http://qkthemes-demo.com/wordpress/housebuild" id="search">
+                            <input  type="text" name="search" placeholder="BUSCAR">
+                            <span class="search"><i class="fa fa-search"></i></span>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </header>
 <!-- CONTACTO -->
 <section class="contacto">
 <div class="container">
   <h2>Contáctese con nosotros</h2>
-  <p>Llena este formulario si necesita envianos alguna información acerca del contenido del servicio web, su funcionalidad, o si tiene alguna <br>  propuesta de información o mejora para el sitio. Así mismo, puede hacer llegar a los redactores su opinión acerca de los contenidos, de una <br> determinada sección el cual podra elegir como destinatario.</p> 
+  <p>Llena este formulario si necesita envianos alguna información acerca del contenido del servicio web, su funcionalidad, o si tiene alguna propuesta de información o mejora para el sitio. Así mismo, puede hacer llegar a los redactores su opinión acerca de los contenidos, de una determinada sección el cual podra elegir como destinatario.</p> 
   <form class="formulario">
     <div class="form-group">
       <input type="Nombre" class="form-control" id="Nombre" placeholder="Nombres Completos">
@@ -36,15 +79,15 @@
     </div>
     <div class="lista">
      <ul class="radio box">
-         <li><label><input type="radio" name="gender" value="" checked>Sugerencia para el sitio web</label><label class="ejemplo" for="">(Ej: funcionamiento y mejoras para el sitio)</label></li>
-         <li> <label><input type="radio" name="gender" value="">Dirección periodística</label><label class="ejemplo" for="">(Ej: Sugerencia pra la prensa)</label></li>
-         <li><label><input type="radio" name="gender" value="">Dirección comercial</label><label class="ejemplo" for="">(Ej: Publicidad en diarios o sitios web)</label></li>
-         <li><label><input type="radio" name="gender" value="">Cartas al director</label><label class="ejemplo" for="">(Ej: denuncias, comentarios e impresiones)</label></li>
-         <li><label><input type="radio" name="gender" value="">Promociones y productos del diario</label><label class="ejemplo" for="">(Ej: Promociones, etc)</label></li>
-         <li><label><input type="radio" name="gender" value="">Archivo periodistico</label><label class="ejemplo" for="">(Ej: Ediciones impresas,fotos)</label></li>
+         <li><label><input type="radio" name="gender" value="" checked>Sugerencia para el sitio web</label><span>(Ej: funcionamiento y mejoras para el sitio)</span></li>
+         <li> <label><input type="radio" name="gender" value="">Dirección periodística</label><span>(Ej: Sugerencia pra la prensa)</span></li>
+         <li><label><input type="radio" name="gender" value="">Dirección comercial</label><span>(Ej: Publicidad en diarios o sitios web)</span></li>
+         <li><label><input type="radio" name="gender" value="">Cartas al director</label><span>(Ej: denuncias, comentarios e impresiones)</span></li>
+         <li><label><input type="radio" name="gender" value="">Promociones y productos del diario</label><span>(Ej: Promociones, etc)</span></li>
+         <li><label><input type="radio" name="gender" value="">Archivo periodistico</label><span>(Ej: Ediciones impresas,fotos)</span></li>
      </ul>
      
-     <ul class="radio box">
+     <!--<ul class="radio box1">
          <li><label><input type="radio" name="gender" value="" checked>Sugerencia para el sitio web (Ej: funcionamiento y mejoras para el sitio)</label></li>
          <li> <label><input type="radio" name="gender" value="">Dirección periodística (Ej: Sugerencia pra la prensa)</label></li>
          <li><label><input type="radio" name="gender" value="">Dirección comercial (Ej: Publicidad en diarios o sitios web)</label></li>
@@ -70,7 +113,141 @@
   </form>
 </div>
 </section>
-
+<footer>
+         <div class="container desktop1">
+             <div class="row padding">
+               <div class="col-md-3 logo">
+                   <img class="img-responsive" src="image/logo-grupo-la-republica.png" alt="">
+                   <h4><b>Grupo La República Digital</b></h4>
+                   <h5>Jr. Camaná 320 Cercado de Lima <br> Teléfono: 711-6000 <br> (Central Telefónica)</h5>
+                   <small>Todos los derechos reservados - 2015</small>
+               </div> <!--cierre de col-md-3-->
+               
+               <div class="col-md-2 bleft">
+                   <ul class="list-unstyled">
+                       <li><a href="https://es.wikipedia.org/wiki/Roger_Federer">Roger Federer</a></li>
+                       <li><a href="https://www.sbs.gob.pe/">SBS</a></li>
+                       <li><a href="https://es.wikipedia.org/wiki/Scarlett_Johansson">Scarlett Johansson</a></li>
+                       <li><a href="http://www.scotiabank.com.pe/">Scotiabank</a></li>
+                       <li><a href="https://es.wikipedia.org/wiki/Selena_Gomez">Selena Gómez</a></li>
+                       <li><a href="https://es.wikipedia.org/wiki/Spider-Man">Spiderman</a></li>
+                       <li><a href="http://www.clubsportingcristal.pe/">Sporting Cristal</a></li>
+                       <li><a href="http://www.sunat.gob.pe/">Sunat</a></li>
+                       <li><a href="http://www.movistar.com.pe/">Telefónica del Perú</a></li>
+                       <li><a href="https://es.wikipedia.org/wiki/The_Walking_Dead_(serie_de_televisi%C3%B3n)">The Walking Dead</a></li>
+                       <li><a href="https://twitter.com/">Twitter</a></li>
+                       <li><a href="http://www.ucv.edu.pe/">Universidad Cesar Vallejo</a></li>
+                       <li><a href="http://www.usmp.edu.pe/">Universidad San Martin</a></li>
+                       <li><a href="https://www.clubuniversitario.pe/">Universitario de Deportes</a></li>
+                       <li><a href="http://www.xbox.com/">Xbox</a></li>
+                       <li><a href="https://www.youtube.com/">YouTube</a></li>
+                       <li><a href="https://fcbayern.com/">Bayern Múnich</a></li>
+                       <li><a href="https://fcbayern.com/">Bayern Múnich</a></li>
+                       <li><a href="https://www.bbvacontinental.pe/">BBVA</a></li>
+                       <li><a href="http://www.xbox.com/">Xbox</a></li>
+                       <li><a href="https://www.viabcp.com/">BCP</a></li>
+                   </ul>
+               </div><!--cierre de col-md-2-->
+               <div class="col-md-2">
+                   <ul class="list-unstyled">
+                       <li><a href="https://es.wikipedia.org/wiki/Al_fondo_hay_sitio">Al fondo hay sitio</a></li>
+                       <li><a href="https://es.wikipedia.org/wiki/Alejandro_Toledo_Manrique">Alejandro Toledo</a></li>
+                       <li><a href="http://www.clubalianzalima.com.pe/">Alianza Lima</a></li>
+                       <li><a href="http://www.clubalianzalima.com.pe/">Alianza Lima</a></li>
+                       <li><a href="http://www.bn.com.pe/">Banco de la Nación</a></li>
+                       <li><a href="https://es.wikipedia.org/wiki/Barack_Obama">Barack Obama</a></li>
+                       <li><a href="http://www.ucv.edu.pe/">Universidad Cesar Vallejo</a></li>
+                       <li><a href="http://www.usmp.edu.pe/">Universidad San Martín</a></li>
+                       <li><a href="https://www.fcbarcelona.es/">Barcelona</a></li>
+                       <li><a href="https://fcbayern.com/">Bayern Múnich</a></li>
+                       <li><a href="https://fcbayern.com/">Bayern Múnich</a></li>
+                       <li><a href="https://www.bbvacontinental.pe/">BBVA</a></li>
+                       <li><a href="http://www.xbox.com/">Xbox</a></li>
+                       <li><a href="https://www.viabcp.com/">BCP</a></li>
+                       <li><a href="https://es.wikipedia.org/wiki/Batman">Batman</a></li>
+                       <li><a href="https://fcbayern.com/">Bayern Múnich</a></li>
+                       <li><a href="https://fcbayern.com/">Bayern Múnich</a></li>
+                       <li><a href="https://www.bbvacontinental.pe/">BBVA</a></li>
+                       <li><a href="http://www.xbox.com/">Xbox</a></li>
+                       <li><a href="https://www.viabcp.com/">BCP</a></li>
+                   </ul>
+               </div><!--cierre de col-md-2-->
+               <div class="col-md-2">
+                   <ul class="list-unstyled">
+                       <li><a href="http://www.onedirectionmusic.com/">One Direction</a></li>
+                       <li><a href="https://www.onpe.gob.pe/">ONPE</a></li>
+                       <li><a href="https://es.wikipedia.org/wiki/Pablo_Escobar">Pablo Escobar</a></li>
+                       <li><a href="https://es.wikipedia.org/wiki/Paolo_Guerrero">Paolo Guerrero</a></li>
+                       <li><a href="http://www.pension65.gob.pe/">Pensión 65</a></li>
+                       <li><a href="https://www.pnp.gob.pe/">PNP</a></li>
+                       <li><a href="http://www.precio-dolar.pe/">Precio del dólar</a></li>
+                       <li><a href="http://www.ucv.edu.pe/">Universidad Cesar Vallejo</a></li>
+                       <li><a href="http://www.usmp.edu.pe/">Universidad San Martín</a></li>
+                       <li><a href="https://www.premierleague.com/">Premier League</a></li>
+                       <li><a href="https://fcbayern.com/">Bayern Múnich</a></li>
+                       <li><a href="https://fcbayern.com/">Bayern Múnich</a></li>
+                       <li><a href="https://www.bbvacontinental.pe/">BBVA</a></li>
+                       <li><a href="http://www.xbox.com/">Xbox</a></li>
+                       <li><a href="https://www.viabcp.com/">BCP</a></li>
+                       <li><a href="https://es.wikipedia.org/wiki/Proyecto_Conga">Proyecto Conga</a></li>
+                       <li><a href="http://www.pucp.edu.pe/">PUCP</a></li>
+                       <li><a href="http://www.realmadrid.com/">Real Madrid</a></li>
+                       <li><a href="https://es.wikipedia.org/wiki/Red_social">Redes Sociales</a></li>
+                       <li><a href="https://www.reniec.gob.pe/">Reniec</a></li>
+                       <li><a href="https://es.wikipedia.org/wiki/Robert_Pattinson">Robert Pattinson</a></li>
+                   </ul>
+               </div><!--cierre de col-md-2-->
+               <div class="col-md-2">
+                   <ul class="list-unstyled">
+                       <li><a href="https://es.wikipedia.org/wiki/Al_fondo_hay_sitio">Al fondo hay sitio</a></li>
+                       <li><a href="https://es.wikipedia.org/wiki/Alejandro_Toledo_Manrique">Alejandro Toledo</a></li>
+                       <li><a href="http://www.clubalianzalima.com.pe/">Alianza Lima</a></li>
+                       <li><a href="http://www.clubalianzalima.com.pe/">Alianza Lima</a></li>
+                       <li><a href="http://www.bn.com.pe/">Banco de la Nación</a></li>
+                       <li><a href="https://es.wikipedia.org/wiki/Barack_Obama">Barack Obama</a></li>
+                       <li><a href="http://www.ucv.edu.pe/">Universidad Cesar Vallejo</a></li>
+                       <li><a href="https://www.premierleague.com/">Premier League</a></li>
+                       <li><a href="https://fcbayern.com/">Bayern Múnich</a></li>
+                       <li><a href="https://fcbayern.com/">Bayern Múnich</a></li>
+                       <li><a href="https://www.bbvacontinental.pe/">BBVA</a></li>
+                       <li><a href="http://www.xbox.com/">Xbox</a></li>
+                       <li><a href="https://www.viabcp.com/">BCP</a></li>
+                       <li><a href="http://www.usmp.edu.pe/">Universidad San Martín</a></li>
+                       <li><a href="https://www.fcbarcelona.es/">Barcelona</a></li>
+                       <li><a href="https://es.wikipedia.org/wiki/Batman">Batman</a></li>
+                       <li><a href="https://fcbayern.com/">Bayern Múnich</a></li>
+                       <li><a href="https://fcbayern.com/">Bayern Múnich</a></li>
+                       <li><a href="https://www.bbvacontinental.pe/">BBVA</a></li>
+                       <li><a href="http://www.xbox.com/">Xbox</a></li>
+                       <li><a href="https://www.viabcp.com/">BCP</a></li>
+                   </ul>
+               </div><!--cierre de col-md-2-->
+             </div><!--cierre de row-->
+         </div><!--cierre de container-->
+            <hr>
+            <div class="container desktop2">
+                <ul class="list-inline list-unstyled final text-center">
+                    <li>Diarios de PAL:</li>
+                    <li><a href="http://www.clarin.com">Clarín</a></li>|
+                    <li><a href="http://latercera.com">La Tercera</a></li>|
+                    <li><a href="http://www.eluniversal.com.co">El Universal Colombia</a></li>|
+                    <li><a href="http://www.eluniversal.com">El Universal Venezuela</a></li>|
+                    <li><a href="http://www.vanguardia.com">Vanguardia</a></li>|
+                    <li><a href="http://www.laprensa.hn">La Prensa</a></li>|
+                    <li><a href="http://www.elsalvador.com">El Salvador</a></li>|
+                    <li><a href="http://www.laverdad.com">La Verdad</a></li>|
+                    <li><a href="http://www.diariolibre.com">Diario Libre</a></li>|
+                    <li><a href="http://www.hoy.com.ec">El Diario de Hoy</a></li>|
+                    <li><a href="http://www.elcolombiano.com">El Colombiano</a></li><br><br>
+                </ul>
+            </div><!--cierre de container-->
+            <div class="movil">
+                <div class="container">
+                    <h3><b>Grupo La República Digital</b></h3>
+                    <p>Todos los Derechos Reservados - 2015</p><br>
+                </div><!--cierre de container-->
+            </div><!--cierre de movil-->
+    </footer>
 
 <!--END CONTACTO -->
 </body>

@@ -1,7 +1,29 @@
 /*--NOTICIAS ESPECIALES--*/
-@media screen and (max-width:970){
-    aside{
-        display: none;
+@media screen and (max-width:992px){
+    .contacto .formulario{
+        width: 80%;
+    }
+    .contacto span{
+        float: right;
+        text-align: right;
+}
+@media (max-width:700px){
+    .contacto .formulario{
+        width: 100%;
+    }
+    .contacto p{
+        font-size: 15px;
+        text-align:justify;
+    }
+     .contactospan{
+        float: inherit;
+        text-align: inherit;   
+    }
+    .contacto .box li{
+        margin-bottom: 10px;
+    }
+    .contacto button{
+        width: 50%;
     }
 }
 /*--SECTION TITULAR--*/
