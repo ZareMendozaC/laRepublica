@@ -9,82 +9,75 @@
     padding-right:3%;
     padding-top: 10%;
     padding-bottom: 5%;
-    margin: 4% 0;
-}
-
-.suscribete .fondo-blanco {
-	background: #fff;
-	position: relative;
-	margin-top: 7%;
-    padding: 5% 5% 5%;
-}
-    
-    
-    
-.suscribete .img-suscribe {
-    position: relative;
-	margin-top: -50px;
-}
-
-.suscribete h4{
-    font-size: 16px;
-}
-
-.suscribete input:focus{
-    outline: none;
-}
-
-.suscribete input {
-    box-shadow: inset 0 0 1px 0px;
-    background: #f3f3f3;
-	border-radius: 5px;
-    padding: 5px 10px;
-}
-
-.suscribete a {
-	margin: 4% 0;
-	padding: 1px 50px;
-    background: #f20c0c;
-    color: #fff;
-}
+    margin: 4% 0; }
+    .suscribete .fondo-blanco {
+        background: #fff;
+        position: relative;
+        margin-top: 7%;
+        padding: 5% 5% 5%; }
+    .suscribete .img-suscribe {
+        position: relative;
+        margin-top: -50px; }
+    .suscribete p {
+        font-size: 22px;
+        margin-top: 15px; }
+    .suscribete form .input-group input:focus {
+        outline: none;
+        border: 1px solid #555;
+        box-shadow: 0 0 3px #aaa; }
+    .suscribete form .input-group input {
+        box-shadow: inset 0 0 1px 0px;
+        background: #f3f3f3;
+        border-radius: 10%;
+        margin: 0 5%; }
+    .suscribete form .input-group {
+        width: 90%; }
+    .suscribete :-moz-placeholder {
+        color: #ccc; }
+    .suscribete ::-webkit-input-placeholder {
+        color: #ccc; }
+    .suscribete .btn {
+        margin: 4% 0;
+        padding: 3% 10%;
+        width: 90%;
+        background: #c00000;
+        color: #fff;
+        border: none; }
+    .suscribete .btn:hover{
+        color: #f7ee9b; }
 
 /* Aweita */
 .aweita {
     border: 1px solid #ccc;
 	padding: 5% 5% 0 5%;
-	margin: 5% 0;
-}
-
-.aweita .logo-aweita {
-    padding: 10% 21%;
-}
-
-.aweita .contenido-aweita {
-    margin-bottom: 4%;
-            
-}
-
-.aweita .contenido-aweita .col-md-7{
-    padding-left: 0;
-}
-
-.aweita .contenido-aweita img{
-    border: 3px solid #a0a0a0;  
-    max-width: 100%;
-}
-
-.aweita .texto-aweita {
-    font-size: 0.9em;
-}
-		
-.aweita	.web-aweita {
-    font-size: 1em;
-    margin: 0 22%;
-    border-bottom: 5px solid #872f85;
-    
-}			
-
-.aweita	.web-aweita  a{
-    color: #872f85;
-    text-decoration: none;
-}
+	margin: 5% 0; }
+    .aweita .logo-aweita {
+        padding-left: 21%;
+        padding-right: 21%;
+        padding-bottom: 5%;
+        width: 100%; }
+    .aweita .contenido-aweita {
+        display: inline-flex;
+        padding: 8px; }
+    .aweita .contenido-aweita img {
+        border: 4px solid #a0a0a0;  
+        max-width: 100%; }
+    .aweita .texto-aweita {
+        font-size: 0.9em;
+        margin-left: 10px;
+        color: #000;
+        text-decoration: none; }
+    .aweita .texto-aweita:hover {
+        color: #15367e; }
+    .aweita	.web-aweita {
+        font-size: 1em;
+        margin-left: 22%;
+        margin-right: 22%;
+        margin-top: 6%;
+        margin-bottom: 0;
+        border-bottom: 5px solid #872f85; }			
+    .aweita	.web-aweita a {
+        color: #872f85;
+        text-decoration: none; }
+    .aweita	.web-aweita a:hover {
+        color: #b60ad0; }

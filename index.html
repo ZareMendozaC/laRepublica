@@ -29,7 +29,7 @@
             <div class="container">
                 <div class="row">
                     <div class="banner-top">
-                        <img src="image/banner_top.jpg">
+                        <img src="image/banner_top.jpg" class="hidden-xs">
                     </div>    
                 </div>
                 
@@ -43,19 +43,21 @@
                     </div>
                     
                     <div class="col-md-5 remove-padding">
-                        <button type="button" >SUSCRÍBETE AL BOLETÍN</button>
+                        <button type="button" href="#suscribete">SUSCRÍBETE AL BOLETÍN</button>
                         <span><a class="facebook" target="_blank" onclick="window.open(this.href, this.target, 'width=400,height=400');"  href="https://www.facebook.com/sharer/sharer.php?u=http://larepublica.pe/"><i class="fa fa-facebook" aria-hidden="true"></i></a></span>
                         
                         <span><a class="twitter" target="_blank" onclick="window.open(this.href, this.target, 'width=400,height=400');"  href="https://twitter.com/intent/tweet?text=LaRepublica_pe&url=http://larepublica.pe/&via=larepublica_pe&original_referer=http://larepublica.pe/"><i class="fa fa-twitter" aria-hidden="true"></i></a></span>
                         
                         <span><a class="google" target="_blank" onclick="window.open(this.href, this.target, 'width=400,height=400');"  href="https://plus.google.com/share?url=http://larepublica.pe/"><i class="fa fa-google-plus" aria-hidden="true"></i></a></span>
                         
-                        <span><a class="sms" target="_blank"  href="mailto:suscripciones@glr.pe"><i class="fa fa-envelope" aria-hidden="true"></i></a></span>
+                        <span><a class="sms"  href="contacto.html"><i class="fa fa-envelope" aria-hidden="true"></i></a></span>
                         
                         <span><a class="rss" target="_blank" onclick="window.open(this.href, this.target, 'width=800,height=600');"  href="http://feeds.feedburner.com/larepublica/feeds"><i class="fa fa-rss" aria-hidden="true"></i></a></span>
                         
-                        <input  type="text" name="search" placeholder="BUSCAR">
-                        <span class="search"><i class="fa fa-search"></i></span>
+                         <form method="get" class="searchform" action="http://qkthemes-demo.com/wordpress/housebuild" id="search">
+                            <input  type="text" name="search" placeholder="BUSCAR">
+                            <span class="search"><i class="fa fa-search"></i></span>
+                        </form>
                     </div>
 
                 </div>
@@ -77,59 +79,56 @@
                     <div class="col-md-4">
 
                         <!-- Suscribete -->
-                        <div class="suscribete">
+                        
+                        <div class="suscribete" id="suscribete">
                             <div class="fondo-blanco text-center">
                                 <img src="image/img_sucribe.png" class="img-suscribe">
-                                <h4><strong>Suscríbete </strong>a nuestro boletín</h4>
-                                <input type="text" placeholder="Correo electronico">
-                                <a href="#" class="btn">SUSCRIBIRSE</a>
-                            </div>    
+                                <p><strong>Suscríbete </strong>a nuestro boletín</p>
+                                
+                                <form action="#" method="post" name="newsletter-form" id="newsletter-form">
+                                    <input type="hidden" name="action" value="send_newsletter_form"/>
+                                    <div class="input-group">
+                                        <input type="email" name="newsletter-email" class="form-control" placeholder="Correo electronico">
 
+                                    </div>
+                                    <input class="btn button" type="submit" value="SUSCRIBIRSE">   
+                                </form>
+                             
+                            </div>    
                         </div>
                         
                         <!-- Aweita -->
                         <div class="aweita">
 				            <img src="image/logo_aweita.jpg" class="logo-aweita">
 				            <div class="contenido-aweita">
-								<div class="row">
-									<div class="col-md-5">
-										<img src="image/Noticia-7130-le-hacian-bullying-porque-media-190-cm-a-los-12-anos-hoy-es-una-modelo-exitosa-960.jpg" width="100" height="65" alt="">
-								    </div>
-								    <div class="col-md-7">
-										<p class="texto-aweita">Le hacían bullying porque medía 190 cm a los 12 años, hoy es una modelo exitosa.</p>
-									</div>
-								</div>
+								
+								<img src="image/Noticia-7130-le-hacian-bullying-porque-media-190-cm-a-los-12-anos-hoy-es-una-modelo-exitosa-960.jpg" width="120" height="65" alt="Le hacían bullying porque medía 190 cm a los 12 años, hoy es una modelo exitosa">
+								    
+								<a class="texto-aweita" href="http://www.aweita.pe/magazine/7130-le-hacian-bullying-porque-media-190-cm-los-12-anos-hoy-es-una-modelo-exitosa?utm_source=LI&utm_medium=bloque&utm_term=aweita&utm_content=zona1&utm_campaign=aweita-externo" target="_blank">Le hacían bullying porque medía 190 cm a los 12 años, hoy es una modelo exitosa.</a>
+									
 							</div>
 							<div class="contenido-aweita">
-								<div class="row">
-									<div class="col-md-5">
-										<img src="image/Noticia-7109-por-que-estudiar-con-emma-watson-es-una-pesadilla-excompanera-lanzo-gran-revelacion-960.jpg" width="100" height="65" alt="">
-									</div>
-									<div class="col-md-7">
-										<p class="texto-aweita">¿Por qué estudiar con Emma Watson era una pesadilla?Excompañera lanzó gran revelación.</p>
-									</div>
-								</div>
+								
+								<img src="image/Noticia-7109-por-que-estudiar-con-emma-watson-es-una-pesadilla-excompanera-lanzo-gran-revelacion-960.jpg" width="120" height="65" alt="¿Por qué estudiar con Emma Watson era una pesadilla? Excompañera lanzó gran revelación">
+									
+								<a class="texto-aweita" href="http://www.aweita.pe/magazine/7109-por-que-estudiar-con-emma-watson-es-una-pesadilla-excompanera-lanzo-gran-revelacion?utm_source=LI&utm_medium=bloque&utm_term=aweita&utm_content=zona2&utm_campaign=aweita-externo" target="_blank">¿Por qué estudiar con Emma Watson era una pesadilla? Excompañera lanzó gran revelación.</a>
+								
 							</div>
 							<div class="contenido-aweita">
-								<div class="row">
-									<div class="col-md-5">
-										<img src="image/Noticia-7155-llego-a-pesar-495-kilos-se-sometio-a-11-cirugias-y-hoy-luce-su-increible-cambio-960.jpg" width="100" height="65" alt="">
-									</div>
-									<div class="col-md-7">
-										<p class="texto-aweita">Llegó a pesar 495 kilos, se sometió a 11 cirugías y hoy luce su increíble cambio.</p>
-									</div>
-								</div>
+								
+								<img src="image/Noticia-7155-llego-a-pesar-495-kilos-se-sometio-a-11-cirugias-y-hoy-luce-su-increible-cambio-960.jpg" width="120" height="65" alt="Llegó a pesar 495 kilos, se sometió a 11 cirugías y hoy luce su increíble cambio">
+									
+								<a class="texto-aweita" href="http://www.aweita.pe/cooltura/sociedad/7155-llego-pesar-495-kilos-se-sometio-11-cirugias-y-hoy-luce-su-increible-cambio?utm_source=LI&utm_medium=bloque&utm_term=aweita&utm_content=zona3&utm_campaign=aweita-externo" target="_blank">Llegó a pesar 495 kilos, se sometió a 11 cirugías y hoy luce su increíble cambio.</a>
+									
 							</div>
-								<div class="contenido-aweita">
-									<div class="row">
-										<div class="col-md-5">
-											<img src="image/Noticia-7134-960-mujer-caballos.jpg" width="100" height="65" alt="">
-										</div>
-										<div class="col-md-7">
-											<p class="texto-aweita">¿Ves una mujer o dos caballos? Lo primero que distingas revelaría tu estado emocional.</p>
-										</div>
-									</div>
-								</div>
+				            <div class="contenido-aweita">
+									
+								<img src="image/Noticia-7134-960-mujer-caballos.jpg" width="120" height="65" alt="¿Ves una mujer o dos caballos? Lo primero que distingas revelaría tu estado emocional">
+										
+								<a class="texto-aweita" href="http://www.aweita.pe/magazine/7134-ves-una-mujer-o-dos-caballos-lo-primero-que-distingas-revelaria-tu-estado-emocional?utm_source=LI&utm_medium=bloque&utm_term=aweita&utm_content=zona4&utm_campaign=aweita-externo" target="_blank">¿Ves una mujer o dos caballos? Lo primero que distingas revelaría tu estado emocional.</a>
+										
+				            </div>
+								
 								<p class="web-aweita text-center">Más de <a target="_blank"  href="http://www.aweita.pe">Aweita.pe</a></p>
 							</div>
 
