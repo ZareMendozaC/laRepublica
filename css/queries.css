@@ -4,4 +4,15 @@
         display: none;
     }
 }
-/*--CONTACTOS--*/
+/*--SECTION TITULAR--*/
+@media (max-width:768px){
+  .titular a {
+    font-size: 20px;
+      padding: 2px;
+      margin: 0;
+    }
+    
+  .photo-portada1{
+      margin-top: 25px;
+    }  
+}
