@@ -15,7 +15,7 @@ body a:hover{
   transform: translateY(-28px)
 }
 .separador span{
-    background: rgba(180, 5, 5, 0.88);
+    background: #c71100;
     color: #fff;
     padding: 3px 5px;
 }

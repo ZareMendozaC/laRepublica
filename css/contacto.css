@@ -13,14 +13,22 @@
     margin: auto;
     margin-bottom: 30px; 
 }
+.formulario input{
+    background: #eeeeee;
+    border: rgba(0, 0, 0, 0);
+    border-top: 2px solid #a59b9b;
+    border-left: 2px solid #a59b9b;
+}
 textarea{
     width: 100%;
+    background: #eeeeee;
+    border: rgba(0, 0, 0, 0);
+    border-top: 2px solid #a59b9b;
 }
 .box{
     padding-left: 0;
 }
 .lista ul{
-    display: inline-block;
     width: 100%;
 }
 .box li{
@@ -29,14 +37,17 @@ textarea{
 .ejemplo{
     float: right;
 }
-.ejemplo li{
+.ejemplo{
     text-align: right;   
 }
-.boton{
+.contacto button{
     background: #000;
-    color: #fff;
-    width: 30%;
+    width: 40%;
     padding: 5px 0;
     text-align: center;
     border-radius: 8px;
+    color: #fff;
+    position: relative;
+    margin-top: 20px;
 }
+
