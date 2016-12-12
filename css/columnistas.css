@@ -2,7 +2,9 @@
 *{
 	box-sizing: border-box;
 }
-
+.sep-pegado{
+	margin-bottom: -56px;
+}
 .columnistas-home{
 	
 	padding-top: 50px;
@@ -15,6 +17,7 @@
 	padding: 0px;
 	text-align:center;
 	padding-top: 40px;
+	padding-bottom: 40px;
 }
 .columnistas-home ul li{
 	display: inline-block;

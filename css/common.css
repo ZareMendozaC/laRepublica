@@ -16,9 +16,7 @@ f/* Inserta tu código común entre todas las páginas acá */
 
 .banner-header ul{
     list-style: none;
-    
     padding: 0;
-    
 }
 .banner-header ul li{
     display: inline-flex;

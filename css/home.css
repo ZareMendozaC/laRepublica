@@ -8,13 +8,13 @@ body a:hover{
     text-decoration: none;
 }
      /*--end divisor--*/
-.divisor{
-  border: 1.5px solid rgba(180, 5, 5, 0.72);  
+.separador .divisor{
+  border: 2px solid rgba(180, 5, 5, 0.72);  
 }
-h3, span{
+.separador h3, span{
   transform: translateY(-28px)
 }
-span{
+.separador span{
     background: rgba(180, 5, 5, 0.88);
     color: #fff;
     padding: 3px 5px;
