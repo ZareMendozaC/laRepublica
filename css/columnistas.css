@@ -1,1 +1,36 @@
 /* Inserta tu código de la página columnistas acá */
+*{
+	box-sizing: border-box;
+}
+.sep-pegado{
+	margin-bottom: -56px;
+}
+.columnistas-home{
+	
+	padding-top: 50px;
+	margin-bottom: 10px;
+}
+.columnistas-home ul{
+	background-color: #f2f2f2;
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	text-align:center;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.columnistas-home ul li{
+	display: inline-block;
+	margin: 0px;
+	padding: 0px;
+}
+.columnistas-home ul li img{
+	border: 3px solid white;
+}
+.column-info
+{
+	width: 150px;
+}
+.column-info h5{
+	font-weight: bold;
+}
