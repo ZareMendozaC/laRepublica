@@ -34,19 +34,26 @@
     <div>
         <h3><b>Elija un destinatario</b></h3>
     </div>
-    <div class="checkbox">
-     <ul>
-         <li><label><input type="checkbox">Sugerencia para el sitio web</label></li>
-         <li> <label><input type="checkbox">Dirección periodística</label></li>
-         <li><label><input type="checkbox">Dirección comercial</label></li>
-         <li><label><input type="checkbox">Cartas al director</label></li>
-         <li><label><input type="checkbox">Promociones y productos del diario</label></li>
-         <li><label><input type="checkbox">Archivo periodistico</label></li>
+    <div class="lista">
+     <ul class="radio box">
+         <li><label><input type="radio" name="gender" value="" checked>Sugerencia para el sitio web</label><label class="ejemplo" for="">(Ej: funcionamiento y mejoras para el sitio)</label></li>
+         <li> <label><input type="radio" name="gender" value="">Dirección periodística</label><label class="ejemplo" for="">(Ej: Sugerencia pra la prensa)</label></li>
+         <li><label><input type="radio" name="gender" value="">Dirección comercial</label><label class="ejemplo" for="">(Ej: Publicidad en diarios o sitios web)</label></li>
+         <li><label><input type="radio" name="gender" value="">Cartas al director</label><label class="ejemplo" for="">(Ej: denuncias, comentarios e impresiones)</label></li>
+         <li><label><input type="radio" name="gender" value="">Promociones y productos del diario</label><label class="ejemplo" for="">(Ej: Promociones, etc)</label></li>
+         <li><label><input type="radio" name="gender" value="">Archivo periodistico</label><label class="ejemplo" for="">(Ej: Ediciones impresas,fotos)</label></li>
      </ul>
-     
+     <!--<ul class="ejemplo">
+         <li>(Ej: funcionamiento y mejoras para el sitio)</li>
+         <li>(Ej: Sugerencia pra la prensa)</li>
+         <li>(Ej: Publicidad en diarios o sitios web)</li>
+         <li>(Ej: denuncias, comentarios e impresiones)</li>
+         <li>(Ej: Promociones, etc)</li>
+         <li>(Ej: Ediciones impresas,fotos)</li>
+     </ul>-->
     </div>
     <textarea name="Mensaje" placeholder="Mensaje" id="msj" cols="30" rows="10"></textarea>
-    <button class="btn">ENVIAR</button>
+    <input class="boton" type="text" value="Enviar Email" id="boton">
   </form>
 </div>
 </section>
