@@ -117,3 +117,20 @@
      }
     /*--cierre de @media--*/
     /*--END BARRA DE NAVEGACION--*/
+
+    /*--FOOTER--*/
+    footer{background-color: #e4e4e4;}
+    footer .logo{margin-top: 60px;}
+    footer .padding{padding: 30px 60px 20px;}
+    footer .bleft{border-left: 2px solid #eee;}
+    footer ul li a{color: #575d62; font-size: 12px;}
+    footer ul li a:hover{text-decoration: none;}
+    footer ul li:hover{background-color: rgba(0, 0, 0, 0.1);}
+    footer hr{margin: 0 auto 15px; border-bottom: 1px solid #eeeeee;}
+    footer .final a, li, ul{color: #9c9796; font-size: 11.5px;}
+    @media screen and (min-width:992px){footer .movil{display: none;}}
+    @media screen and (max-width:992px){
+        footer .desktop1, .desktop2{display: none;}
+        footer{background-color: black; color: white; text-align: center;}
+    }
+    /*--CIERRE DE FOOTER--*/
