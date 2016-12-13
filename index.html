@@ -20,7 +20,9 @@
       
       <script src="js/jquery.js"></script>
       <script src="js/bootstrap.min.js"></script>
+
     </head>
+    
     <body>
     
     <!-- HEADER -->
@@ -29,12 +31,12 @@
             <div class="container">
                 <div class="row">
                     <div class="banner-top">
-                        <img src="image/banner_top.jpg" class="hidden-xs">
+                        <img src="image/banner_top.jpg" class="hidden-xs hidden-sm">
                     </div>    
                 </div>
                 
                 <div class="row">
-                    <div class="col-md-7">
+                    <div class="col-md-7 col-sm-7">
                         <ul>
                             <li><a target="_blank" href="http://www.libero.pe/">LIBERO.PE</a></li>
                             <li><a target="_blank" href="http://www.elpopular.pe/">ELPOPULAR.PE</a></li>
@@ -42,8 +44,8 @@
                         </ul>
                     </div>
                     
-                    <div class="col-md-5 remove-padding">
-                        <button type="button" href="#suscribete">SUSCRÍBETE AL BOLETÍN</button>
+                    <div class="col-md-5 col-sm-5 remove-padding ">
+                        <button type="button" ><a  target="_blank" onclick="window.open(this.href, this.target, 'width=600,height=500');"  href="https://feedburner.google.com/fb/a/mailverify?uri=larepublica/feed/rss">SUSCRÍBETE AL BOLETÍN</a></button>
                         <span><a class="facebook" target="_blank" onclick="window.open(this.href, this.target, 'width=400,height=400');"  href="https://www.facebook.com/sharer/sharer.php?u=http://larepublica.pe/"><i class="fa fa-facebook" aria-hidden="true"></i></a></span>
                         
                         <span><a class="twitter" target="_blank" onclick="window.open(this.href, this.target, 'width=400,height=400');"  href="https://twitter.com/intent/tweet?text=LaRepublica_pe&url=http://larepublica.pe/&via=larepublica_pe&original_referer=http://larepublica.pe/"><i class="fa fa-twitter" aria-hidden="true"></i></a></span>
@@ -52,9 +54,9 @@
                         
                         <span><a class="sms"  href="contacto.html"><i class="fa fa-envelope" aria-hidden="true"></i></a></span>
                         
-                        <span><a class="rss" target="_blank" onclick="window.open(this.href, this.target, 'width=800,height=600');"  href="http://feeds.feedburner.com/larepublica/feeds"><i class="fa fa-rss" aria-hidden="true"></i></a></span>
+                        <span><a class="rss" target="_blank" onclick="window.open(this.href, this.target, 'width=800,height=600');"  href="http://feeds.feedburner.com/larepublica/feed/rss"><i class="fa fa-rss" aria-hidden="true"></i></a></span>
                         
-                         <form method="get" class="searchform" action="http://qkthemes-demo.com/wordpress/housebuild" id="search">
+                        <form method="get" class="searchform" action="http://www.google.com/search" id="search">
                             <input  type="text" name="search" placeholder="BUSCAR">
                             <span class="search"><i class="fa fa-search"></i></span>
                         </form>
@@ -84,8 +86,7 @@
                             <div class="fondo-blanco text-center">
                                 <img src="image/img_sucribe.png" class="img-suscribe">
                                 <p><strong>Suscríbete </strong>a nuestro boletín</p>
-                                
-                                <form action="#" method="post" name="newsletter-form" id="newsletter-form">
+                                <form action="https://feedburner.google.com/fb/a/mailverify?uri=larepublica/feed/rss" method="post" target="popupwindow" onsubmit="window.open('https://feedburner.google.com/fb/a/mailverify?uri=larepublica/feed/rss', 'popupwindow', 'scrollbars=yes,width=550,height=520'); return true" name="newsletter-form">
                                     <input type="hidden" name="action" value="send_newsletter_form"/>
                                     <div class="input-group">
                                         <input type="email" name="newsletter-email" class="form-control" placeholder="Correo electronico">
