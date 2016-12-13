@@ -84,5 +84,11 @@
         border:none;
         border-right: 1px solid #ccc;
         padding: 5px; }
-
+/*--BARRA DE NAVEGACION--*/
+.republica .one{margin:40px auto 0; text-align: center;}
+.republica .logop{ margin: 15px 0;}
+.republica .cuadro1{border: 1px solid #e4e8eb; border-bottom: 5px solid #ae0707; padding: 0 0 5px;}
+.republica .c-rojo{position: relative; bottom: 15px; width: 25%; margin: auto; background: #ae0707; color: white; padding: 5px;}
+.republica .editorial{ background: #2c3137;}
+.republica .c-white{position: absolute; top:-2px; padding: 9px 50px 9px 20px; right: 16px; width: 86%; background: white; border-radius: 15px; border: 3px solid #f9f9f9;}
     
