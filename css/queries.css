@@ -52,5 +52,19 @@
    .ultimas-noticias button{
     display: none;
    }
- 
+   .fotos-destacadas h4{
+        font-size: 13px;
+   }
+ .fotos-destacadas a{
+        font-size: 13px;
+   }
+}
+
+@media (min-width:768px)and (max-width:1024px){
+   .fotos-destacadas h4{
+        font-size: 20px;
+   }
+ .fotos-destacadas a{
+        font-size: 20px;
+   }
 }
