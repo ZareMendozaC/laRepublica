@@ -283,6 +283,35 @@ body a:hover{
         text-decoration: none; }
     .aweita .web-aweita a:hover {
         color: #b60ad0; }
+/*Fotos destacadas*/
+.img-dest {
+	width:100%;
+	border:2px solid gray;
+}
+.fotos-destacadas {
+	padding-top:18%;
+	margin-top:8%;
+	margin-bottom:8%;
+	border-top:0.4em solid gray;
+	position:relative;
+}
+.tittle-dest {
+	padding: 2%;
+	position: absolute;
+	background-color: gray;
+	top: -10px;
+	left:23%;
+	font-size:1.5em;
+	font-family: "Oswald";
+	color: white;
+}
+.destacado a {
+	color:black;
+}
+.img-dest {
+	border:4px solid gray;
+	margin-bottom:4%;
+}
 
 /* Inserta tu código de la página home/index acá */
 
