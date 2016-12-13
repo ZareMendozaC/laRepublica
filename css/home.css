@@ -288,7 +288,7 @@ body a:hover{
 .tittle-dest {
     padding: 4%;
     position: relative;
-    background-color: gray;
+    background-color: #6f8798;
     top: -9px;
     font-size: 1.4em;
     font-family: "Oswald";
@@ -344,5 +344,9 @@ body a:hover{
     background-color: #d90c0c;
     color: #ffffff;
     margin:0px auto;
-    margin-bottom: 20px;
+    margin-bottom: 20px;   
+}
+.ultimas-noticias button:hover{
+    background-color: #d90c0c;
+    color: #ffffff;
 }
