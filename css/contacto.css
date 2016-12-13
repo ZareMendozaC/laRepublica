@@ -1,11 +1,14 @@
 /* Inserta tu código de la página contacto acá */
-.contacto h2{
+.contacto h3{
     text-align: center;
-    font-size: 45px;
+    font-size: 40px;
     margin-bottom: 40px;
 }
+.contacto h4{
+    margin-top: 40px;
+}
 .contacto p{
-    font-size: 18px;
+    font-size: 16px;
     margin-bottom: 35px;
 }
 .contacto .formulario{
@@ -31,7 +34,7 @@
     padding-bottom: 20px;
 }
 .contacto .box li{
-    font-size: 15px;
+    font-size: 14px;
     color: #000;
 }
 .contacto .lista{
