@@ -40,7 +40,7 @@
 .contacto .lista{
     width: 100%;
 }
-.contacto .formulario span{
+.contacto span{
     float: right;
     text-align: right;
 }
@@ -60,6 +60,7 @@
     border-radius: 5px;
     color: #fff;
 }
-.republica .carousel span{
+.republica .carousel .deslizable{
     margin: 0px auto;
 }
+
