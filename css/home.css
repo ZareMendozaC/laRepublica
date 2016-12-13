@@ -1,10 +1,9 @@
 
 *{
-    outline: 1px solid rgba(244, 202, 226, 0.9);
-}
-
+   /* font-family:"Roboto";*/
+   
 /*--SECCION TITULAR--*/
-
+}
 .titular
 {
     font-size: 45px;
@@ -39,7 +38,7 @@
     font-size: 12px;
     color: #fff;
 }
-.iconos i
+.iconos .face, .tui, .goo
 { 
     color: #00689d;
     border: 1px solid #eeeeee;
@@ -49,14 +48,16 @@
     margin: 3px;
     font-size: 11px;
     margin-left: 10px;
+    border-radius: 4px;
+    width: 25px;
 }
 
-.i-twitter i
+.i-twitter .tui
 {   
     color: #00adf1;
     border-bottom: 3px solid #00adf1;
 }
-.i-google i
+.i-google .goo
 {
     color: #d33e2f;
     border-bottom: 3px solid #d33e2f;
@@ -283,16 +284,31 @@ body a:hover{
         text-decoration: none; }
     .aweita .web-aweita a:hover {
         color: #b60ad0; }
+/*--fotos Destacadas--*/
+.tittle-dest {
+    padding: 4%;
+    position: relative;
+    background-color: #6f8798;
+    top: -9px;
+    font-size: 1.4em;
+    font-family: "Oswald";
+    color: white;
+    text-align: center;
+}
+
 
 /* Inserta tu código de la página home/index acá */
 
 /*SECTION ULTIMAS*/
+.ultimas-content{
+    padding-left: 18px;
+}
 .ultimas h4{
     color: #8d879b;
 }
 .ultimas h6{
     color: #8d879b;
-    font-size: 11px;
+    font-size: 13px;
 }
 .ultimas p{
     font-size: 16px;
@@ -303,7 +319,34 @@ body a:hover{
     margin-left: 175px;
 }
 .ultimas .ult-info{
-    font-size: 13px;
-    color: #191919;
+    font-size: 14px;
+    color: #868c92;
+    
+}
+.ultimas .col-md-4{
+    padding: 0px;
+}
+.you {
+    
+    font-size: 20px;
+    color: #d90c0c;
+}
+.barra-coment{
+    color: #61798a;
+    display: inline-block;
+    font-size: 11px;
+}
+.ultimas-noticias hr{
+    width: 100%;
 }
 
+.ultimas-noticias button{
+    background-color: #d90c0c;
+    color: #ffffff;
+    margin:0px auto;
+    margin-bottom: 20px;   
+}
+.ultimas-noticias button:hover{
+    background-color: #d90c0c;
+    color: #ffffff;
+}

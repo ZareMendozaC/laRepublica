@@ -4,6 +4,7 @@
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
       <title>La Répública - Home</title>
+      <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
       <link rel="stylesheet" href="css/home.css">
       <link rel="stylesheet" href="css/queries.css">
       <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -17,8 +18,9 @@
       <script src="js/jquery.js"></script>
       <script src="js/bootstrap.min.js"></script> 
       <!-- Inserta tus enlaces aquí -->
-   
+
     </head>
+    
     <body>
     <!-- HEADER -->
     <header>
@@ -26,12 +28,12 @@
             <div class="container">
                 <div class="row">
                     <div class="banner-top">
-                        <img src="image/banner_top.jpg" class="hidden-xs">
+                        <img src="image/banner_top.jpg" class="hidden-xs hidden-sm">
                     </div>    
                 </div>
                 
                 <div class="row">
-                    <div class="col-md-7">
+                    <div class="col-md-7 col-sm-7">
                         <ul>
                             <li><a target="_blank" href="http://www.libero.pe/">LIBERO.PE</a></li>
                             <li><a target="_blank" href="http://www.elpopular.pe/">ELPOPULAR.PE</a></li>
@@ -39,8 +41,8 @@
                         </ul>
                     </div>
                     
-                    <div class="col-md-5 remove-padding">
-                        <button type="button" href="#suscribete">SUSCRÍBETE AL BOLETÍN</button>
+                    <div class="col-md-5 col-sm-5 remove-padding ">
+                        <button type="button" ><a  target="_blank" onclick="window.open(this.href, this.target, 'width=600,height=500');"  href="https://feedburner.google.com/fb/a/mailverify?uri=larepublica/feed/rss">SUSCRÍBETE AL BOLETÍN</a></button>
                         <span><a class="facebook" target="_blank" onclick="window.open(this.href, this.target, 'width=400,height=400');"  href="https://www.facebook.com/sharer/sharer.php?u=http://larepublica.pe/"><i class="fa fa-facebook" aria-hidden="true"></i></a></span>
                         
                         <span><a class="twitter" target="_blank" onclick="window.open(this.href, this.target, 'width=400,height=400');"  href="https://twitter.com/intent/tweet?text=LaRepublica_pe&url=http://larepublica.pe/&via=larepublica_pe&original_referer=http://larepublica.pe/"><i class="fa fa-twitter" aria-hidden="true"></i></a></span>
@@ -49,12 +51,14 @@
                         
                         <span><a class="sms"  href="contacto.html"><i class="fa fa-envelope" aria-hidden="true"></i></a></span>
                         
-                        <span><a class="rss" target="_blank" onclick="window.open(this.href, this.target, 'width=800,height=600');"  href="http://feeds.feedburner.com/larepublica/feeds"><i class="fa fa-rss" aria-hidden="true"></i></a></span>
+                        <span><a class="rss" target="_blank" onclick="window.open(this.href, this.target, 'width=800,height=600');"  href="http://feeds.feedburner.com/larepublica/feed/rss"><i class="fa fa-rss" aria-hidden="true"></i></a></span>
                         
-                         <form method="get" class="searchform" action="http://qkthemes-demo.com/wordpress/housebuild" id="search">
-                            <input  type="text" name="search" placeholder="BUSCAR">
+                        <form method="post" class="searchform" action="http://larepublica.pe/buscador?buscando=noticias" id="search">
+                            <input   type="text" name="search" placeholder="BUSCAR">
                             <span class="search"><i class="fa fa-search"></i></span>
+
                         </form>
+                            
                     </div>
 
                 </div>
@@ -170,9 +174,9 @@
            <center>
                 <div>
                   <ul class="iconos" >
-                    <li><a href="www.facebook.com"> <i class="fa fa-facebook" aria-hidden="true"></i> </a></li>
-                    <li class="i-twitter"><a href="www.twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                    <li class="i-google" ><a href="www.google.com"><i class="fa fa-google-plus" aria-hidden="true"></i><small>.Hace 12 minutos <b> . POLITICA</b> </small></a></li>
+                    <li><a href="www.facebook.com"> <i class="fa fa-facebook face" aria-hidden="true"></i> </a></li>
+                    <li class="i-twitter"><a href="www.twitter"><i class="fa fa-twitter tui" aria-hidden="true"></i></a></li>
+                    <li class="i-google" ><a href="www.google.com"><i class="fa fa-google-plus goo" aria-hidden="true"></i><small>.Hace 12 minutos <b> . POLITICA</b> </small></a></li>
                    </ul>
                 </div>
            </center> 
@@ -183,14 +187,14 @@
                           <a href="http://larepublica.pe/sociedad/829362-4-consejos-para-mantener-tu-peso-ideal-luego-de-los-50-anos">
                             <div class="mensaje1" >
                                 <h4><a href="http://larepublica.pe/tag/jne">JNE impulsará campaña <br> en favor de la aprobación de la <br>reforma electoral</a></h4>
-                                <div>
+                                <div class="">
                                   <ul class="iconos" >
                                         <li>
-                                        <a href="www.facebook.com"> <i class="fa fa-facebook" aria-hidden="true"></i> </a></li>
+                                        <a href="www.facebook.com"> <i class="fa fa-facebook face" aria-hidden="true"></i> </a></li>
                                         <li class="i-twitter">
-                                        <a href="www.twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                        <a href="www.twitter"><i class="fa fa-twitter tui" aria-hidden="true"></i></a></li>
                                         <li class="i-google" >
-                                        <a href="www.google.com"><i class="fa fa-google-plus" aria-hidden="true"></i><small><b> . POLITICA</b>. Hace 12 minutos</small></a></li>
+                                        <a href="www.google.com"><i class="fa fa-google-plus goo" aria-hidden="true"></i><small><b> . POLITICA</b>. Hace 12 minutos</small></a></li>
                                    </ul>
                                </div>  
                             </div>
@@ -208,9 +212,9 @@
                             <h4> <a href="http://larepublica.pe/24-01-2015/constructora-malaga-desmiente-a-contralor-de-la-republica-sobre-nexos-con-belaunde-lossio">Martin Belaunde Lossio:Empresas vinculadas <br>al empresario contrataron por S/.3000<br>millones | FOTOS </a></h4>
                                 <div>
                                     <ul class="iconos" >
-                                        <li><a href="www.facebook.com"> <i class="fa fa-facebook" aria-hidden="true"></i> </a></li>
-                                        <li class="i-twitter"><a href="www.twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                        <li class="i-google" ><a href="www.google.com"><i class="fa fa-google-plus" aria-hidden="true"></i><small> <b> . POLITICA </b>. Hace 12 minutos </small></a></li>
+                                        <li><a href="www.facebook.com"> <i class="fa fa-facebook face" aria-hidden="true"></i> </a></li>
+                                        <li class="i-twitter"><a href="www.twitter"><i class="fa fa-twitter tui" aria-hidden="true"></i></a></li>
+                                        <li class="i-google" ><a href="www.google.com"><i class="fa fa-google-plus goo" aria-hidden="true"></i><small> <b> . POLITICA </b>. Hace 12 minutos </small></a></li>
                                     </ul>
                                 </div>  
                         </div>
@@ -225,9 +229,9 @@
                             <h4>Mercado de pases 2015:Altas bajas y <br> rumores de los equipos peruanos</h4>
                             <div>
                                <ul class="iconos" >
-                                <li><a href="www.facebook.com"> <i class="fa fa-facebook" aria-hidden="true"></i> </a></li>
-                                <li class="i-twitter"><a href="www.twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                <li class="i-google" ><a href="www.google.com"><i class="fa fa-google-plus" aria-hidden="true"></i><small> <b> . POLITICA </b>. Hace 12 minutos </small></a></li>
+                                <li><a href="www.facebook.com"> <i class="fa fa-facebook face" aria-hidden="true"></i> </a></li>
+                                <li class="i-twitter"><a href="www.twitter"><i class="fa fa-twitter tui" aria-hidden="true"></i></a></li>
+                                <li class="i-google" ><a href="www.google.com"><i class="fa fa-google-plus goo" aria-hidden="true"></i><small> <b> . POLITICA </b>. Hace 12 minutos </small></a></li>
                                </ul>
                             </div>  
                         </div>
@@ -431,23 +435,204 @@
      <!--END SECTION NOTICIAS ESPECIALES-->
 
 	<!--ULTIMAS NOTICIAS ZARE, LIZ, TEFY-->
-    <section class="">
+    <section class="ultimas-noticias">
         <div class="container">
             <div class="row">
                 <div class="col-md-8 ultimas">
-                      <div class="row">
+                      <div class="row ultimas-content">
                           <h4>ULTIMAS NOTICIAS</h4>
                           <img src="image/double-arrow-bottom.png" class="ult-icono">
                           <h6>Hace una 1 hora 12 mins</h6>
                           <p>Emma Watson protagonizará 'La bella y la bestia' | VIDEO</p>
                             <div class="col-md-4">
-                              <img src="image/img_news.jpg">
+                              <img src="image/img_news.jpg" class="img-responsive ultimas-img">
                             </div>
+                           
                             <div class="col-md-8">
-                                <p class="ult-info">La actriz Emma Watson fue confirmada por Disney como la protagonista de 'La Bella y la Bestia' en la versión de carne y hueso</p>
+                                <p class="ult-info text-justify">La actriz Emma Watson fue confirmada por Disney como la protagonista de 'La Bella y la Bestia' en la versión de carne y hueso</p>
+                                 <div class="">
+                                  <ul class="iconos" >
+                                        <li>
+                                        <a href="www.facebook.com"> <i class="fa fa-facebook face" aria-hidden="true"></i> </a></li>
+                                        <li class="i-twitter">
+                                        <a href="www.twitter"><i class="fa fa-twitter tui" aria-hidden="true"></i></a></li>
+                                        <li class="i-google" >
+                                        <a href="www.google.com"><i class="fa fa-google-plus goo" aria-hidden="true"></i></a></li>
+                                   </ul>
+                                        <div class="barra-coment">
+                                       <span> &#9679 </span>
+                                        <i class="fa fa-comment" aria-hidden="true"></i>
+                                        <b> 10</b>
+                                        <span> &#9679 </span>
+                                        <b> POLITICA</b>
+                                        <span> &#9679 </span>
+                                        <i class="fa fa-youtube-play you" aria-hidden="true"></i>
+                                        </div>
+                                        <hr class="invisible">
+                               </div> 
                             </div>
-                      </div>
+                          <hr>
+                          <h6>Hace una 1 hora 12 mins</h6>
+                          <p>Emma Watson protagonizará 'La bella y la bestia' | VIDEO</p>
+                            <div class="col-md-4">
+                              <img src="image/img_news.jpg" class="img-responsive ultimas-img">
+                            </div>
+                           
+                            <div class="col-md-8">
+                                <p class="ult-info text-justify">La actriz Emma Watson fue confirmada por Disney como la protagonista de 'La Bella y la Bestia' en la versión de carne y hueso</p>
+                                 <div class="">
+                                  <ul class="iconos" >
+                                        <li>
+                                        <a href="www.facebook.com"> <i class="fa fa-facebook face" aria-hidden="true"></i> </a></li>
+                                        <li class="i-twitter">
+                                        <a href="www.twitter"><i class="fa fa-twitter tui" aria-hidden="true"></i></a></li>
+                                        <li class="i-google" >
+                                        <a href="www.google.com"><i class="fa fa-google-plus goo" aria-hidden="true"></i></a></li>
+                                   </ul>
+                                        <div class="barra-coment">
+                                       <span> &#9679 </span>
+                                        <i class="fa fa-comment" aria-hidden="true"></i>
+                                        <b> 10</b>
+                                        <span> &#9679 </span>
+                                        <b> POLITICA</b>
+                                        <span> &#9679 </span>
+                                        <i class="fa fa-youtube-play you" aria-hidden="true"></i>
+                                        </div>
+                                        <hr class="invisible">
+                               </div> 
+                            </div>
+                          <hr>
+                          <h6>Hace una 1 hora 12 mins</h6>
+                          <p>Emma Watson protagonizará 'La bella y la bestia' | VIDEO</p>
+                            <div class="col-md-4">
+                              <img src="image/img_news.jpg" class="img-responsive ultimas-img">
+                            </div>
+                           
+                            <div class="col-md-8">
+                                <p class="ult-info text-justify">La actriz Emma Watson fue confirmada por Disney como la protagonista de 'La Bella y la Bestia' en la versión de carne y hueso</p>
+                                 <div class="">
+                                  <ul class="iconos" >
+                                        <li>
+                                        <a href="www.facebook.com"> <i class="fa fa-facebook face" aria-hidden="true"></i> </a></li>
+                                        <li class="i-twitter">
+                                        <a href="www.twitter"><i class="fa fa-twitter tui" aria-hidden="true"></i></a></li>
+                                        <li class="i-google" >
+                                        <a href="www.google.com"><i class="fa fa-google-plus goo" aria-hidden="true"></i></a></li>
+                                   </ul>
+                                        <div class="barra-coment">
+                                       <span> &#9679 </span>
+                                        <i class="fa fa-comment" aria-hidden="true"></i>
+                                        <b> 10</b>
+                                        <span> &#9679 </span>
+                                        <b> POLITICA</b>
+                                        <span> &#9679 </span>
+                                        <i class="fa fa-youtube-play you" aria-hidden="true"></i>
+                                        </div>
+                                        <hr class="invisible">
+                               </div> 
+                            </div>
                       <hr>
+                          <h6>Hace una 1 hora 12 mins</h6>
+                          <p>Emma Watson protagonizará 'La bella y la bestia' | VIDEO</p>
+                            <div class="col-md-4">
+                              <img src="image/img_news.jpg" class="img-responsive ultimas-img">
+                            </div>
+                           
+                            <div class="col-md-8">
+                                <p class="ult-info text-justify">La actriz Emma Watson fue confirmada por Disney como la protagonista de 'La Bella y la Bestia' en la versión de carne y hueso</p>
+                                 <div class="">
+                                  <ul class="iconos" >
+                                        <li>
+                                        <a href="www.facebook.com"> <i class="fa fa-facebook face" aria-hidden="true"></i> </a></li>
+                                        <li class="i-twitter">
+                                        <a href="www.twitter"><i class="fa fa-twitter tui" aria-hidden="true"></i></a></li>
+                                        <li class="i-google" >
+                                        <a href="www.google.com"><i class="fa fa-google-plus goo" aria-hidden="true"></i></a></li>
+                                   </ul>
+                                        <div class="barra-coment">
+                                       <span> &#9679 </span>
+                                        <i class="fa fa-comment" aria-hidden="true"></i>
+                                        <b> 10</b>
+                                        <span> &#9679 </span>
+                                        <b> POLITICA</b>
+                                        <span> &#9679 </span>
+                                        <i class="fa fa-youtube-play you" aria-hidden="true"></i>
+                                        </div>
+                                        <hr class="invisible">
+                               </div> 
+                            </div>
+                              <hr>
+                          <h6>Hace una 1 hora 12 mins</h6>
+                          <p>Emma Watson protagonizará 'La bella y la bestia' | VIDEO</p>
+                            <div class="col-md-4">
+                              <img src="image/img_news.jpg" class="img-responsive ultimas-img">
+                            </div>
+                           
+                            <div class="col-md-8">
+                                <p class="ult-info text-justify">La actriz Emma Watson fue confirmada por Disney como la protagonista de 'La Bella y la Bestia' en la versión de carne y hueso</p>
+                                 <div class="">
+                                  <ul class="iconos" >
+                                        <li>
+                                        <a href="www.facebook.com"> <i class="fa fa-facebook face" aria-hidden="true"></i> </a></li>
+                                        <li class="i-twitter">
+                                        <a href="www.twitter"><i class="fa fa-twitter tui" aria-hidden="true"></i></a></li>
+                                        <li class="i-google" >
+                                        <a href="www.google.com"><i class="fa fa-google-plus goo" aria-hidden="true"></i></a></li>
+                                   </ul>
+                                        <div class="barra-coment">
+                                       <span> &#9679 </span>
+                                        <i class="fa fa-comment" aria-hidden="true"></i>
+                                        <b> 10</b>
+                                        <span> &#9679 </span>
+                                        <b> POLITICA</b>
+                                        <span> &#9679 </span>
+                                        <i class="fa fa-youtube-play you" aria-hidden="true"></i>
+                                        </div>
+                                        <hr class="invisible">
+                               </div> 
+                            </div>
+                              <hr>
+                          <h6>Hace una 1 hora 12 mins</h6>
+                          <p>Emma Watson protagonizará 'La bella y la bestia' | VIDEO</p>
+                            <div class="col-md-4">
+                              <img src="image/img_news.jpg" class="img-responsive ultimas-img">
+                            </div>
+                           
+                            <div class="col-md-8">
+                                <p class="ult-info text-justify">La actriz Emma Watson fue confirmada por Disney como la protagonista de 'La Bella y la Bestia' en la versión de carne y hueso</p>
+                                 <div class="">
+                                  <ul class="iconos" >
+                                        <li>
+                                        <a href="www.facebook.com"> <i class="fa fa-facebook face" aria-hidden="true"></i> </a></li>
+                                        <li class="i-twitter">
+                                        <a href="www.twitter"><i class="fa fa-twitter tui" aria-hidden="true"></i></a></li>
+                                        <li class="i-google" >
+                                        <a href="www.google.com"><i class="fa fa-google-plus goo" aria-hidden="true"></i></a></li>
+                                   </ul>
+                                        <div class="barra-coment">
+                                       <span> &#9679 </span>
+                                        <i class="fa fa-comment" aria-hidden="true"></i>
+                                        <b> 10</b>
+                                        <span> &#9679 </span>
+                                        <b> POLITICA</b>
+                                        <span> &#9679 </span>
+                                        <i class="fa fa-youtube-play you" aria-hidden="true"></i>
+                                        </div>
+                                        <hr class="invisible">
+                               </div> 
+                            </div>
+                            <hr> 
+                            <center>
+                            <button type="button" class="btn btn-default">TODAS LAS NOTICIAS</button> 
+                            </center> 
+                
+
+
+
+
+
+                      </div>
+
                 </div>
                 <aside>
                     <div class="col-md-4">
@@ -458,8 +643,7 @@
                             <div class="fondo-blanco text-center">
                                 <img src="image/img_sucribe.png" class="img-suscribe">
                                 <p><strong>Suscríbete </strong>a nuestro boletín</p>
-                                
-                                <form action="#" method="post" name="newsletter-form" id="newsletter-form">
+                                <form action="https://feedburner.google.com/fb/a/mailverify?uri=larepublica/feed/rss" method="post" target="popupwindow" onsubmit="window.open('https://feedburner.google.com/fb/a/mailverify?uri=larepublica/feed/rss', 'popupwindow', 'scrollbars=yes,width=550,height=520'); return true" name="newsletter-form">
                                     <input type="hidden" name="action" value="send_newsletter_form"/>
                                     <div class="input-group">
                                         <input type="email" name="newsletter-email" class="form-control" placeholder="Correo electronico">
@@ -506,6 +690,37 @@
 								<p class="web-aweita text-center">Más de <a target="_blank"  href="http://www.aweita.pe">Aweita.pe</a></p>
 							</div> 
                <!--FOTOS DESTACADAS-->
+        <div class="hidden-xs hidden-sm fotos-destacadas">
+            <div class="tittle-dest">FOTOS DESTACADAS</div>
+				<div class="destacado">
+				    <img class="img-dest" src="image/img_fotodes_prominent.jpg" alt="greenpeace">
+				    <h4><b><a href="#">Líneas de Nasca: admiten prisión preventiva de 6 meses para activista de Greenpeace | VIDEOS</a></b></h4>
+            <div class="row">
+				<div class="col-md-5">
+				    <img class="img-dest" src="image/img_fotodes.jpg" alt="wapa">
+				    </div>
+				<div class="col-md-7">
+				    <b><a href="#">Uchuraccay:El pueblo que recibe con flores a quienes llegan a pie | FOTOS</a></b>
+				    </div>
+                </div>
+            <div class="row">
+				<div class="col-md-5">
+				    <img class="img-dest" src="image/img_fotodes.jpg" alt="wapa">
+                    </div>
+            <div class="col-md-7">
+				    <b><a href="#">Alianza Lima vs Fénix: íntimos ganaron 1-0 en "Noche Blanquiazul" | VIDEO Y FOTOS</a></b>
+                    </div>
+				</div>
+            <div class="row">
+                <div class="col-md-5">
+				    <img class="img-dest" src="image/img_fotodes.jpg" alt="wapa">
+				    </div>
+            <div class="col-md-7">
+				<b><a href="#">Alianza Lima vs Fénix: íntimos ganaron 1-0 en "Noche Blanquiazul" | VIDEO Y FOTOS</a></b>
+				      </div>
+				    </div>
+                </div>
+            </div> 
                 <!--END DESTACADAS-->
                     </div>  
                 </aside>      
@@ -650,5 +865,6 @@
             </div><!--cierre de movil-->
      </footer>
     <!--END FOOTER-->
+
     </body>
 </html>
