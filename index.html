@@ -56,26 +56,12 @@
                         
                         <span><a class="rss" target="_blank" onclick="window.open(this.href, this.target, 'width=800,height=600');"  href="http://feeds.feedburner.com/larepublica/feed/rss"><i class="fa fa-rss" aria-hidden="true"></i></a></span>
                         
-                        <div class="busca">
-                            <script>
-                                  (function() {
-                                    var cx = '001913924415486221701:ouseoypp86w';
-                                    var gcse = document.createElement('script');
-                                    gcse.type = 'text/javascript';
-                                    gcse.async = true;
-                                    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
-                                    var s = document.getElementsByTagName('script')[0];
-                                    s.parentNode.insertBefore(gcse, s);
-                                  })();
-                            </script>
-                                   <gcse:searchresults></gcse:searchresults>
-                            <form method="get" class="searchform" action="http://larepublica.pe/buscador?buscando=" id="search">
+                        <form method="post" class="searchform" action="http://larepublica.pe/buscador?buscando=noticias" id="search">
+                            <input   type="text" name="search" placeholder="BUSCAR">
+                            <span class="search"><i class="fa fa-search"></i></span>
 
-                                <input  type="text" name="search" placeholder="BUSCAR">
-                                <span class="search"><i class="fa fa-search"></i></span>
-
-                            </form>
-                        </div>        
+                        </form>
+                            
                     </div>
 
                 </div>
