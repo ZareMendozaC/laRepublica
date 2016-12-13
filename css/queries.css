@@ -38,3 +38,17 @@
       margin-top: 25px;
     }  
 }
+@media (max-width:768px){
+  .ultimas-noticias .ultimas-img  {
+    width: 100%;
+    margin:0px auto;
+    padding-right: 18px;
+    }
+   .ultimas-noticias .ult-info{
+    margin-top: 10px;
+    margin-left: -14px;
+    margin-right: 6px;
+   }
+    
+ 
+}
