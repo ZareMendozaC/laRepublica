@@ -40,10 +40,9 @@
 .contacto .lista{
     width: 100%;
 }
-.contacto span{
+.contacto .formulario span{
     float: right;
     text-align: right;
-    margin-bottom:
 }
 .contacto button{
     background: #000;
@@ -54,4 +53,13 @@
     color: #fff;
     position: relative;
     margin-top: 20px;
+}
+
+.contacto button:hover{
+    background: #000;
+    border-radius: 5px;
+    color: #fff;
+}
+.republica .carousel span{
+    margin: 0px auto;
 }
