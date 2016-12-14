@@ -1,1 +1,174 @@
 /* Inserta tu código común entre todas las páginas acá */
+.banner-header {
+    background: rgb(244,245,247);
+    border-bottom: 2px solid #ccc; }
+    .banner-header .banner-top img {
+        width: 100%;
+        margin-top: 15px;
+        margin-bottom: 15px; }
+    .banner-header .col-md-7 {
+        padding: 0; }
+    .banner-header ul {
+        list-style: none;
+        padding: 0; }
+    .banner-header ul li {
+        display: inline-block; }
+    .banner-header ul li a {
+        color: rgb(150,150,150);
+        font-weight: 600;
+        font-size: 12.5px;
+        margin-right: 0 1%;
+        text-decoration: none;
+        padding: 3px; }
+    .banner-header ul li a:hover {
+        background: #eaeaea;
+        border-radius: 5px; }
+    .banner-header .remove-padding {
+        padding: 0;
+        text-align: right; }
+    .banner-header .remove-padding span a i:hover { 
+        -moz-transform: scale(1.5);
+        -webkit-transform: scale(1.5);
+        -o-transform: scale(1.5);
+        -ms-transform: scale(1.5);
+        transform: scale(1.5); }
+    .banner-header button {
+        background: rgb(254,73,73);
+        font-size: 12px;
+        font-weight: 600;
+        border: none;
+        border-radius: 5px;
+        margin-right: 5%; }
+    .banner-header button a{
+        text-decoration: none;
+        color: #fff; }
+    .banner-header button a:hover {
+        color: #f8f1b3; }
+    .banner-header .facebook {
+        color: rgb(0,101,164);
+        margin-right: 3%; }
+    .banner-header .twitter {
+        color: rgb(0,184,219);
+        margin-right: 3%; }
+    .banner-header .google {
+        color: #e50404;
+        margin-right: 3%; }
+    .banner-header .sms {
+        color: rgb(255,192,0);
+        margin-right: 3%; }
+    .banner-header .rss {
+        color: rgb(255,129,0);
+        margin-right: 2%; }
+    .banner-header form {
+       display: inline; }
+    .banner-header input {
+        background: none;
+        border: none;
+        border-left: 1px solid #ccc;
+
+        width: 60px;
+        font-size: 12px;
+        padding-left: 5px;
+
+        -moz-transition: all .25s;
+        -webkit-transition:  all .25s;
+        -o-transition: all .25s;
+        transition: all .25s; }
+    .banner-header input:focus {
+        outline: none;
+        background: #fff;
+        border: 1px solid #555;
+        box-shadow: 0 0 3px #aaa;
+        width: 90px; }
+    .banner-header .search {
+        background: none;
+        border:none;
+        border-right: 1px solid #ccc;
+        padding: 5px; }
+
+
+
+
+@media (max-width:768px){
+    .banner-header ul li a {
+        margin-right: 0 ;
+        font-size: 9px; }
+    .banner-header .remove-padding {
+        text-align: left; }
+    .banner-header button {
+        font-size: 11px;
+        margin-right: 0; }
+    .banner-header .facebook {
+        font-size: 11px;
+        margin-right: 0; }
+    .banner-header .twitter {
+        font-size: 11px;
+        margin-right: 0; }
+    .banner-header .google {
+        font-size: 11px;
+        margin-right: 0; }
+    .banner-header .sms {
+        font-size: 11px;
+        margin-right: 0; }
+    .banner-header .rss {
+        font-size: 11px;
+        margin-right: 0; }
+    .banner-header input {
+        font-size: 10px; }
+    .banner-header input:focus {
+        width:65px; }
+    .banner-header .search {
+        font-size: 11px;
+        padding: 1px; }
+
+}
+
+    /*--BARRA DE NAVEGACION--*/
+    .republica .one{margin:40px auto 0; text-align: center;}
+    .republica .logop{ margin: 15px 0;}
+    .republica .cuadro1{border: 1px solid #e4e8eb; border-bottom: 5px solid #ae0707; padding: 0 0 5px;}
+    .republica .c-rojo{position: relative; bottom: 15px; width: 25%; margin: auto; background: #ae0707; color: white; padding: 5px;}
+    .republica .editorial{ background: #2c3137;}
+    .republica .c-white{position: absolute; top:-2px; padding: 9px 50px 9px 20px; right: 16px; width: 86%; background: white; border-radius: 15px; border: 3px solid #f9f9f9;}
+    .republica .face{position: absolute; top: -5px; right: 15px;}
+    .republica .c-red ul{background: #d90c0c; border-radius: 5px;}
+    .republica .c-red ul li{border-left: 1px solid black; padding: 10px 15px 6px 15px;}
+    .republica .c-red ul li a{color: white; text-decoration: none;}
+    .republica .c-red ul li:hover{background: #003376;}
+    .republica .temas .dia{background: black; color: white; border-radius: 5px;}
+    .republica .temas ul{background: #e4e8eb; border-radius: 6px;}
+    .republica .temas ul li{padding: 10px 15px 6px 15px;  }
+    .republica .temas ul li a{color: black; text-decoration: none;}
+    .republica .carousel span{color: white; background:black; padding: 9px 5px; margin: 28px auto;}
+    .republica .carousel-inner{background: #e4e8eb; border-radius: 10px; padding:5px;  text-align: center; margin:15px auto; font-size:20px;}
+    .republica .carousel-inner a{text-decoration: none; color: black;}
+    .republica .carousel{display: none;}
+
+    /*--@media--*/
+    @media screen and (max-width:992px){
+        .republica .c-white{padding:12px; width: 81%; font-size: 12px; text-align: left;}
+        .republica .logop{margin: auto;}
+        .republica .c-red{display: none; border-radius: 5px;}
+        .republica .temas{display: none;}
+        .republica .c-rojo{width: 40%;}
+        .republica .carousel{display:block;}
+     }
+    /*--cierre de @media--*/
+    /*--END BARRA DE NAVEGACION--*/
+
+    /*--FOOTER--*/
+    footer{background-color: #e4e4e4;}
+    footer .logo{margin-top: 60px;}
+    footer .padding{padding: 30px 60px 20px;}
+    footer .bleft{border-left: 2px solid #eee;}
+    footer ul li a{color: #575d62; font-size: 12px;}
+    footer ul li a:hover{text-decoration: none;}
+    footer ul li:hover{background-color: rgba(0, 0, 0, 0.1);}
+    footer hr{margin: 0 auto 15px; border-bottom: 1px solid #eeeeee;}
+    footer .final a, li, ul{color: #9c9796; font-size: 11.5px;}
+    @media screen and (min-width:992px){footer .movil{display: none;}}
+    @media screen and (max-width:992px){
+        footer .desktop1, .desktop2{display: none;}
+        footer{background-color: black; color: white; text-align: center;}
+    }
+    /*--CIERRE DE FOOTER--*/
