@@ -1,5 +1,4 @@
 /* Inserta tu código común entre todas las páginas acá */
-
 .banner-header {
     background: rgb(244,245,247);
     border-bottom: 2px solid #ccc; }
@@ -173,4 +172,3 @@
         footer{background-color: black; color: white; text-align: center;}
     }
     /*--CIERRE DE FOOTER--*/
-
